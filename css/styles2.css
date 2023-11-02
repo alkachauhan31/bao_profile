@@ -1,0 +1,32 @@
+.up-arrow {
+    display: inline-block;
+    position: relative;
+    border: 1px solid #777777;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.up-arrow:before {
+    content: '';
+    display: block;  
+    position: absolute;
+    left: 140px;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: black;
+}
+
+.up-arrow:after {
+    content: '';
+    display: block;  
+    position: absolute;
+    left: 141px;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-color: white;
+}
